@@ -6,7 +6,9 @@
 * 支持`前端分页`，暂不支持`后端分页`。
 * 需要引入`Bootstrap` css文件。
 
+
 ![](http://7xswnj.com1.z0.glb.clouddn.com/simple-table.gif)
+
 
 # Options
 * :columns    列标题(Array)
