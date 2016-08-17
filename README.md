@@ -10,19 +10,48 @@
 ## 若演示不完整或空白请直接点击[这里](http://7xswnj.com1.z0.glb.clouddn.com/simple-table.gif)
 
 ![](http://7xswnj.com1.z0.glb.clouddn.com/simple-table.gif)
-
-
-# Options
-* :columns    列标题(Array)
-* :data   数据(Array)
-* :record   每页条数(Number)    default: 10
-* :sortColumn  排序列(Array)    可选    不排序的列值为false，其他为data中相应的key 例：[false, 'date', 'temperature', 'humidity', 'rainfall', false, 'windLevel', 'pressure']
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th style="width: 100px;">name</th>
+            <th style="width: 50px;">type</th>
+            <th style="width: 50px;">default</th>
+            <th>description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>:columns</td>
+            <td>Array</td>
+            <td></td>
+            <td>列标题</td>
+        </tr>
+        <tr>
+            <td>:data</td>
+            <td>Array</td>
+            <td></td>
+            <td>数据</td>
+        </tr>
+        <tr>
+            <td>:record</td>
+            <td>Number</td>
+            <td>10</td>
+            <td>每页条数</td>
+        </tr>
+        <tr>
+            <td>:sortColumn</td>
+            <td>Array</td>
+            <td></td>
+            <td>每页条数,可选。不排序的列值为false，其他为data中相应的key 例：[false, 'date', 'temperature', 'humidity', 'rainfall', false, 'windLevel', 'pressure']</td>
+        </tr>
+    </tbody>
+</table>
 
 # test.vue
 
 ```
 <template>
-  <simple-table :columns="tableColumn" :data="tableTr" :sort-column="sortCol"></simple-table>
+    <simple-table :columns="tableColumn" :data="tableTr" :sort-column="sortCol"></simple-table>
 </template>
 
 <script>
@@ -36,7 +65,6 @@ export default {
     }
 }
 </script>
-
 ```
 
 # data格式
