@@ -30,7 +30,7 @@
           <span class="sr-only">(current)</span>
         </a>
       </li>
-      <li :class="{'active': n-1 == currentPage}" v-show="currentPage < pageNum - 5">
+      <li :class="{'active': n-1 == currentPage}" v-show="currentPage < pageNum - 5 && pageNum > 9">
         <a href="javascript:void(0);" @click="changePage(pageNum - 1)">
           {{pageNum}}
           <span class="sr-only">(current)</span>
