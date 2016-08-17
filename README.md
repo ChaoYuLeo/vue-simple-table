@@ -10,6 +10,11 @@
 ## 若演示不完整或空白请直接点击[这里](http://7xswnj.com1.z0.glb.clouddn.com/simple-table.gif)
 
 ![](http://7xswnj.com1.z0.glb.clouddn.com/simple-table.gif)
+
+
+# options
+
+
 <table class="table table-bordered table-striped">
     <thead>
         <tr>
