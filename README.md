@@ -60,8 +60,8 @@
 </template>
 
 <script>
+import SimpleTable from 'components/SimpleTable.vue'
 export default {
-  import SimpleTable from 'components/SimpleTable.vue'
   data () {
       return {
         tableColumn:['站点', '时间', '气温(℃)', '湿度(%)', '雨量(ml)', '风向', '风速(级)', '气压(hPa)'],
