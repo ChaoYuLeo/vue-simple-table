@@ -125,6 +125,15 @@
           val: -this.sort.val
         }
       }
+    },
+    watch: {
+      data () {
+        this.currentPage = 0
+        this.sort = {
+          key: '',
+          val: 1
+        }
+      }
     }
   }
 </script>
